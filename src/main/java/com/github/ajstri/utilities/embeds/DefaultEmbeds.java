@@ -250,6 +250,15 @@ public class DefaultEmbeds {
                         "➾ `2nd offense` will result in a kick\n" +
                         "➾ `3rd offense` will result in a ban\n",
                 false);
+
+        embed.addField("❧ | No massive terrain destruction",
+                "This is to keep the server moderately attractive. Quarries are okay, but be mindful of their location.\n" +
+                        "Exploration and adventuring would not be enjoyable in the face of large scale destruction.\n" +
+                        "➾ `1st offense` will result in a warning\n" +
+                        "➾ `2nd offense` will result in a kick\n" +
+                        "➾ `3rd offense` will result in a ban\n",
+                false);
+
         embed.addField("Server Archives", "https://trpserver.com/go/archives", false);
 
         // Return embed
@@ -293,9 +302,9 @@ public class DefaultEmbeds {
         embed.addField("Our Modded Server is currently whitelist only", "To gain access to Modded, see pinned message in <#901646689155297332>", false);
         embed.addBlankField(false);
 
-        embed.addField("Modpack", "Enigmatica 2: Expert (Version **1.82a**)\nhttps://www.curseforge.com/minecraft/modpacks/enigmatica2expert", false);
-        embed.addField("IP", "play.trpserver.com\nType `/server modded` or use the portal", true);
-        embed.addField("Version", "1.12.2", true);
+        embed.addField("Modpack", "Enigmatica 6 (Version **0.5.21**)\nhttps://www.curseforge.com/minecraft/modpacks/enigmatica6", false);
+        embed.addField("IP", "mod.trpserver.com\nThis server is not part of the network", true);
+        embed.addField("Version", "1.16.5", true);
 
         // Return embed
         return embed.build();
