@@ -240,12 +240,12 @@ public class DefaultEmbeds {
         // Populate embed
         embed.setTitle("Minecraft Server Rules");
 
-        embed.addField("❧ | -500 to 500 on both the X and Z axis are reserved for Spawn Town.",
+        embed.addField("❧ | -100 to 100 on both the X and Z axis are reserved for Spawn Town.",
                 "Shops, Community Builds, etc. are here. No personal builds (bases, etc.) should be built here.", false);
 
         embed.addField("❧ | No cheating, hacking, or griefing",
                 "Pranks are okay, but be prepared to help with clean up if requested.\n" +
-                        "Vanilla+ type mods are okay(Minimaps, Optifine, etc.). Hacking will not be tolerated\n" +
+                        "Vanilla plus type mods are okay(Minimaps, Optifine, etc.). Hacking will not be tolerated\n" +
                         "➾ `1st offense` will result in a warning\n" +
                         "➾ `2nd offense` will result in a kick\n" +
                         "➾ `3rd offense` will result in a ban\n",

@@ -236,14 +236,14 @@ public class Main {
                 getHelp().registerCommand(math),
                 getHelp().registerCommand(roll)
         );
-        registerSlashCommands(math, roll);
+        //(math, roll);
 
         // Generic
         InfoCommand info = new InfoCommand();
         api.addEventListener(
                 getHelp().registerCommand(help),
                 getHelp().registerCommand(info));
-        registerSlashCommands(help, info);
+        //registerSlashCommands(help, info);
     }
 
     /**

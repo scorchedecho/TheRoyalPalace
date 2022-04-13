@@ -194,7 +194,7 @@ public class MathCommand extends Command {
 
     @Override
     public CommandData getSlashCommandData() {
-        return new CommandData("Math", "Work out a math function");
+        return new CommandData("math", "Work out a math function");
     }
 
     @Override
